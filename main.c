@@ -14,11 +14,10 @@ int print_file(FILE *file){
 		printf("%d %s", ++line_no, line);
 	}
 	return 0;
-
 }
 
 void print_help(void){
-	printf("\nCommands:\n\th: print help\n\tp: print file\n\t...\n\n");
+	printf("\nCommands:\nh:\tprint help\np:\tprint file\na:\tappend line to file\n");
 }
 
 int main(int argc, char **argv){
